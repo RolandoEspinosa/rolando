@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="main.css">  
+      
+    <link rel="shortcut icon" href="#" />  
+     <!-- TIMELINE CSS -->  
+    <link rel="stylesheet" href="timeline/css/timeline.min.css">  
+            
+    <title>TimeLine-Evalución de la Web</title>
+  </head>
+  <body> 
+     <header>
+         <h1 class="text-center text-light">ITESCO</h1>
+         <h2 class="text-center text-light">EVOLUCIÓN DE LA  <span style="color:#7dffc3">WEB</span></h2> 
+      </header>
+     
+    <div style="height:100px"></div>
+    
+    
+    <div class="timeline-container timeline-theme-1">
+        <div class="timeline js-timeline">
+            <div data-time="1889">
+              <img src="img/0.jpg">                  
+            </div>
+            <div data-time="1990">
+              <img src="img/2.jpg">  
+            </div>
+            <div data-time="1990"> 
+            <img src="img/3.jpg">    
+            </div>
+            <div data-time="1991">                
+                <img src="img/4.jpg">    
+            </div>
+            <div data-time="1991">                
+                <img src="img/5.jpg">    
+            </div>
+            <div data-time="1993">                
+                <img src="img/6.jpg">    
+            </div>
+            <div data-time="1993">                
+                <img src="img/7.jpg">    
+            </div>
+            <div data-time="2000">                
+                <img src="img/8.jpg">    
+            </div>
+            <div data-time="2004">                
+                <img src="img/9.jpg">    
+            </div>
+            <div data-time="2005">                
+                <img src="img/10.jpg">    
+            </div>            
+            <div data-time="2006">
+                <img src="img/11.jpg">
+            <div data-time="2008">
+                <img src="img/12.jpg"  
+                </div>
+            <div data-time="2008">
+               <img src="img/13.jpg"
+              </div>
+            <div data-time="2010">
+               <img src="img/14.jpg"
+            </div>
+            <div data-time="2013">
+               <img src="img/15.jpg"
+            </div>
+
+            </div>
+        </div>
+    </div>  
+    <footer>
+      <h1 class="text-center text light" >19081392 Rolando Espinosa Dominguez</h1>
+
+
+
+    </footer>
+
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>      
+      
+    <!-- TIMELINE JS -->            
+    <script src="timeline/js/timeline.min.js"></script>
+      
+    <script>
+        /*Para el funcionamiento básico*/
+//        $('.js-timeline').Timeline();
+        
+        $('.js-timeline').Timeline({
+          autoplay: true,
+          dotsPosition:'bottom',             
+        });
+        
+    </script>  
+
+      </footer>
+  </body>
+</html>
